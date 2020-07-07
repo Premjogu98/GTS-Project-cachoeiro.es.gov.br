@@ -70,20 +70,20 @@
   ('libcrypto-1_1.dll',
    'c:\\program files\\python37\\DLLs\\libcrypto-1_1.dll',
    'BINARY'),
-  ('wxmsw30u_core_vc140_x64.dll',
-   'c:\\program '
-   'files\\python37\\lib\\site-packages\\wx\\wxmsw30u_core_vc140_x64.dll',
-   'BINARY'),
   ('wxbase30u_vc140_x64.dll',
    'c:\\program '
    'files\\python37\\lib\\site-packages\\wx\\wxbase30u_vc140_x64.dll',
+   'BINARY'),
+  ('MSVCP140.dll',
+   'c:\\program files\\python37\\lib\\site-packages\\wx\\MSVCP140.dll',
    'BINARY'),
   ('wxbase30u_net_vc140_x64.dll',
    'c:\\program '
    'files\\python37\\lib\\site-packages\\wx\\wxbase30u_net_vc140_x64.dll',
    'BINARY'),
-  ('MSVCP140.dll',
-   'c:\\program files\\python37\\lib\\site-packages\\wx\\MSVCP140.dll',
+  ('wxmsw30u_core_vc140_x64.dll',
+   'c:\\program '
+   'files\\python37\\lib\\site-packages\\wx\\wxmsw30u_core_vc140_x64.dll',
    'BINARY'),
   ('pywintypes37.dll',
    'c:\\program '
@@ -101,24 +101,20 @@
   ('base_library.zip',
    'D:\\PycharmProjects\\cachoeiro.es.gov.br\\build\\Navigation_page\\base_library.zip',
    'DATA'),
-  ('selenium\\webdriver\\firefox\\webdriver.xpi',
-   'c:\\program '
-   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
-   'DATA'),
-  ('selenium\\webdriver\\remote\\getAttribute.js',
-   'c:\\program '
-   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
-   'DATA'),
   ('certifi\\cacert.pem',
    'c:\\program files\\python37\\lib\\site-packages\\certifi\\cacert.pem',
-   'DATA'),
-  ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
-   'c:\\program '
-   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'DATA'),
   ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
    'c:\\program '
    'files\\python37\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver.xpi',
+   'c:\\program '
+   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
+   'c:\\program '
+   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
    'DATA'),
   ('selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
    'c:\\program '
@@ -127,6 +123,10 @@
   ('selenium\\webdriver\\remote\\isDisplayed.js',
    'c:\\program '
    'files\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\getAttribute.js',
+   'c:\\program '
+   'files\\python37\\lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
    'DATA'),
   ('Navigation_page.exe.manifest',
    'D:\\PycharmProjects\\cachoeiro.es.gov.br\\build\\Navigation_page\\Navigation_page.exe.manifest',
