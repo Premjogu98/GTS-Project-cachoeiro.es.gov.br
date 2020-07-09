@@ -34,7 +34,7 @@ def ChromeDriver():
     # browser.close()
     # browser.switch_to.window(browser.window_handles[0])
     # time.sleep(2)
-    time.sleep(1)
+    time.sleep(5)
     # browser.get('https://prefeitura.cachoeiro.es.gov.br/servicos/site.php?nomePagina=LICITACAO')
     # time.sleep(20)  # WAIT UNTIL CHANGE THE MANUAL VPN SETTING
     # browser.set_window_size(1024, 600)
@@ -143,9 +143,15 @@ def Scraping_data(browser):
                     print(SegField[SegIndex])
                     SegField[SegIndex] = html.unescape(str(SegField[SegIndex]))
                     SegField[SegIndex] = str(SegField[SegIndex]).replace("'", "''")
-                tr += 4
+                if len(SegField[19]) >= 200:
+                    SegField[19] = str(SegField[19])[:200]+'...'
+
+                if len(SegField[18]) >= 1500:
+                    SegField[18] = str(SegField[18])[:1500]+'...'
 
                 check_date(SegField)
+                tr += 4
+
                 print(" Total: " + str(Global_var.Total) + " Duplicate: " + str(
                     Global_var.duplicate) + " Expired: " + str(Global_var.expired) + " Inserted: " + str(
                     Global_var.inserted) + " Skipped: " + str(Global_var.skipped) + " Deadline Not given: " + str(
